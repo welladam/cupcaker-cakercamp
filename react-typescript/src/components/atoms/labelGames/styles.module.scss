@@ -1,0 +1,19 @@
+.label {
+  display: flex;
+
+  border: 1px solid #7e7e7e;
+  background-color: #7e7e7e;
+  border-left: 4px solid #e53934;
+
+  text-shadow: 1px 2px 1px black;
+  color: white;
+  font-size: 20px;
+
+  height: 27px;
+  padding: 6px;
+  width: 80px;
+
+  &:hover {
+    background-color: #e53934;
+  }
+}
