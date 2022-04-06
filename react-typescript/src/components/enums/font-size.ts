@@ -10,4 +10,5 @@ export enum FontSize {
   large9xl = 'fs-9xl',
   large10xl = 'fs-10xl',
   large12xl = 'fs-12xl',
+  large14xl = 'fs-14xl',
 }
