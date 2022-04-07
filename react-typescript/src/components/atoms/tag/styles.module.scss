@@ -1,0 +1,33 @@
+div {
+  display: flex;
+  align-items: center;
+
+  padding: 2px 5px 2px 5px;
+  height: 25px;
+  border-radius: 3px;
+
+  text-shadow: 1px 1px 1px #000000;
+  color: white;
+}
+
+.PS4,
+.PS5 {
+  background-color: #1565c0;
+}
+
+.XboxSeries,
+.XboxOne {
+  background-color: #529836;
+}
+
+.PC {
+  background-color: #bdbbbb;
+}
+
+.Switch {
+  background-color: #c62828;
+}
+
+.default {
+  background-color: #ef6c00;
+}
