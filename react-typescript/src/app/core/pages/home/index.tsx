@@ -1,19 +1,16 @@
 import React from 'react'
-
 import logo from 'app/core/resources/logo.svg'
-
 import styles from './styles.module.scss'
+import Stories from 'components/atoms/Stories'
+import Footer from 'components/atoms/footer'
+import Tag from 'components/atoms/Tag'
+import Header from 'components/atoms/header'
 
 const Home = (): JSX.Element => {
   return (
     <main>
-      <header className={styles.header}>
-        <img src={logo} className={styles.logo} alt="logo" />
-        <p>Welcome to CKL Boilerplate</p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      <Header/>
+     
     </main>
   )
 }
