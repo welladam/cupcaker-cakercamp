@@ -8,7 +8,7 @@ import { Tag } from 'components/atoms'
 const Home = (): JSX.Element => {
   return (
     <main>
-      <Tag tagType="PS5" tagTitle="PS5"/>
+      <Tag tagTitle="Switch"/>
     </main>
   )
 }

@@ -1,33 +1,13 @@
 div {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    width:auto !important;
-    height: 25px;
-    margin-right: 3px;
-    color: #fff;
-    padding: 2px 5px;
-    font-size: .8rem;
-    text-shadow: 1px 0 1px rgb(0 0 0 / 40%);
-    border-radius: 2px;
-  }
-  
-  .PS4, .PS5 {
-    background-color: #1565c0;
-  }
-  
-  .XboxSeries, .XboxOne {
-    background-color: #529836;
-  }
-  
-  .PC {
-    background-color: #BDBBBB;
-  }
-  
-  .Switch {
-    background-color: #c62828;
-  }
-  
-  .default {
-    background-color: #ef6c00;
-  }
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width:auto !important;
+  height: 25px;
+  margin-right: 3px;
+  color: #fff;
+  padding: 2px 5px;
+  font-size: .8rem;
+  text-shadow: 1px 0 1px rgb(0 0 0 / 40%);
+  border-radius: 2px;
+}
