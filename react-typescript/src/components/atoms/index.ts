@@ -1,3 +1,6 @@
 export * from './typography'
 export * from './header'
 export * from './footer'
+export * from './story'
+export * from './tag'
+export * from './label'
