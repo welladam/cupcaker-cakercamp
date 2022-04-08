@@ -1,6 +1,7 @@
-div {
+.tagName {
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
   width:auto !important;
   height: 25px;
