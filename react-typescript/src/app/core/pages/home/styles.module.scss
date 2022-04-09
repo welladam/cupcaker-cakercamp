@@ -1,15 +1,9 @@
-.header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-
-  .logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
+.mainContainer {
+    margin: 0 175px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }

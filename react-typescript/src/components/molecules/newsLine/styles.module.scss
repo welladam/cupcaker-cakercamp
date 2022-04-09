@@ -1,0 +1,138 @@
+.newsItem {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #e53935;
+
+    a {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+}
+
+.newsItemImage {
+    overflow: hidden;
+    width: 42%;
+    height: 195px;
+    position: relative;
+
+    a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    img {
+        width: auto;
+        height: 100%;
+        display: block;
+        aspect-ratio: 1.66;
+        -webkit-transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+}
+
+.niItemType {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.newsItemContent {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 190px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.nicTitle {
+    display: block;
+    overflow: hidden;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0 0 10px;
+
+
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        border: 0;
+        font-family: Oxygen,sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+.nicMessage {
+    display: block;
+    overflow: hidden;
+    font-size: 1.1rem;
+
+    a {
+        color: rgba(0,0,0,.8);
+    }
+}
+
+.nicDetail {
+    display: inline-block;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    flex-shrink: 0;
+    font-size: .9rem;
+    padding: 5px 20px;
+    background-color: #fcfcfc;
+}
+
+.nicInfo {
+    display: block;
+    float: left;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.userSpan {
+    display: inline;
+}
+
+.newsItem:hover {
+    .newsItemImage img {
+        height: 105%;
+        width: auto;
+        display: block;
+        -webkit-transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .nicTitle a {
+        color: #e53935;
+    }
+}
+
+.newsItemImage:hover{
+    .niItemType a {
+        background-color: #e53935;
+    }
+}
+
