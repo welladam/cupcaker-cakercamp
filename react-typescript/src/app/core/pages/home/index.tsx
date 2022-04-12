@@ -1,19 +1,22 @@
 import React from 'react'
 
-import logo from 'app/core/resources/logo.svg'
+import moment from 'moment'
+import 'moment/locale/pt-br'
 
-import styles from './styles.module.scss'
+import { Carousel } from 'components/molecules'
+
+moment.locale('pt-br')
+
+/* import styles from './styles.module.scss'*/
 
 const Home = (): JSX.Element => {
   return (
     <main>
-      <header className={styles.header}>
-        <img src={logo} className={styles.logo} alt="logo" />
-        <p>Welcome to CKL Boilerplate</p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      <Carousel
+        title="title"
+        description="description"
+        img="https://static.gamevicio.com/imagens_up/big/71/kingdom-hearts-iv-apartamento-de-sora-existe-na-vida-real-e-custa-1-2-milhao-de-dolares-070420.jpg"
+      />
     </main>
   )
 }
