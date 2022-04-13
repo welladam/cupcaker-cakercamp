@@ -1,4 +1,4 @@
-/* eslint-disable  @typescript-eslint/typedef */
+/* eslint-disable @typescript-eslint/typedef */
 import { NewsLine } from 'components/molecules'
 import styles from './styles.module.scss'
 
