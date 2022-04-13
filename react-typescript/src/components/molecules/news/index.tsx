@@ -1,3 +1,4 @@
+/* eslint-disable  @typescript-eslint/typedef */
 import { NewsLine } from 'components/molecules'
 import styles from './styles.module.scss'
 
@@ -16,10 +17,13 @@ export const News = () : JSX.Element => {
         {"title":"Mangá de Golden Kamuy vai acabar em breve","description":"Segundo leaker, serão somente mais 3 capítulos","author":"Palma.Harris","createdAt":"2022-04-04T15:38:34.860Z","comments":71,"tags":["Animes"],"type":"Mangás","image":"https://static.gamevicio.com/imagens_up/big/71/manga-de-golden-kamuy-vai-acabar-em-breve-070098.jpg","id":"10"},
         {"title":"David Jaffe diz que nova PS Plus não possui o mesmo apelo que o Game Pass","description":"Quantidade x Qualidade","author":"Harrison.Jast95","createdAt":"2022-04-02T07:11:35.037Z","comments":15,"tags":["Xbox One","Xbox Series","PS4"],"type":"Games","image":"https://static.gamevicio.com/imagens_up/big/71/david-jaffe-diz-que-nova-ps-plus-nao-possui-o-mesmo-apelo-que-o-game-pass-070093.jpg","id":"11"},
         {"title":"Microsoft pode estar planejando em fundir o Xbox Live Gold com o Xbox Game Pass Ultimate","description":"Será o fim do Xbox Live Gold?","author":"Freda.Murphy6","createdAt":"2022-04-05T06:54:20.484Z","comments":13,"tags":["Xbox Series","Xbox One"],"type":"Games","image":"https://static.gamevicio.com/imagens_up/big/71/microsoft-pode-estar-planejando-em-fundir-o-xbox-live-gold-com-o-xbox-game-pass-ultimate-070096.jpg","id":"12"},
-        {"title":"title 13","description":"description 13","author":"Baby.Gorczany","createdAt":"2022-04-05T09:21:45.132Z","comments":62,"tags":[],"type":"type 13","image":"image 13","id":"13"},
         {"title":"Segundo informações, Eivor, o protagonista de Assassin's Creed Valhalla, será o mais novo personagem chegando em Fortnite","description":"Mais uma colaboração da Ubisoft com a Epic Games?","author":"Wanda53","createdAt":"2022-03-04T19:31:54.405Z","comments":6,"tags":[],"type":"Games","image":"https://static.gamevicio.com/imagens_up/big/71/eivor-protagonista-de-assassin-s-creed-valhalla-sera-o-mais-novo-personagem-chegando-em-fortnite-sugere-informacoes-070091.jpg","id":"14"},
         {"title":"Elon Musk compra 9% do Twitter, a rede social","description":"A aquisição acontece em meio a reclamações sobre liberdade de expressão","author":"Madge_Batz","createdAt":"2022-03-20T05:53:18.074Z","comments":84,"tags":[],"type":"Tecnologia","image":"https://static.gamevicio.com/imagens_rz/post/665x400/32/32318-70070-elon-musk-compra-9-do-twitter-a-rede-social.webp","id":"15"}
     ]
+    
+    newsList.sort(function(a,b) {
+        return a.createdAt > b.createdAt ? -1 : a.createdAt < b.createdAt ? 1 : 0;
+    });
 
     return (
         <div className={styles.homeNewsContent} >
