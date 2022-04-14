@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 /* eslint-disable @typescript-eslint/typedef */
 import React from 'react'
+import { NewsList } from 'app/core/services'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/themes/splide-default.min.css'
 import { LabelType } from 'components/atoms'
